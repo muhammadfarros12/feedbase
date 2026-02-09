@@ -1,0 +1,43 @@
+# Build & output directories
+node_modules/
+dist/
+dist-ssr/
+.output/
+.nitro/
+.tanstack/
+.vinxi/
+.wrangler/
+
+# Local & temp files
+.DS_Store
+*.local
+count.txt
+todos.json
+
+# Environment files
+.env
+.env.*
+!.env.example          # (opsional: jika ingin tetap track contoh env)
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor & IDE
+.vscode/*
+!.vscode/launch.json
+!.vscode/*.code-snippets
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf
+
+# Yarn
+.yarn/
+!.yarn/releases
+
+# Misc

@@ -3,10 +3,11 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"dev": "vite dev --port 4000",
+		"dev": "pnpm with-env vite dev --port 4000",
 		"build": "vite build",
 		"preview": "vite preview",
-		"test": "vitest run"
+		"test": "vitest run",
+		"with-env": "dotenv -e ../../.env --"
 	},
 	"dependencies": {
 		"@tailwindcss/vite": "^4.0.6",

@@ -9,6 +9,7 @@
 		"platform:dev": "pnpm --filter=platform dev",
 		"api-platform:dev": "pnpm -r -parallel --filter=api --filter=platform run dev",
 		"api-admin:dev": "pnpm -r -parallel --filter=api --filter=admin run dev",
+		"dev": "pnpm -r -parallel run dev",
 		"lint": "pnpm exec biome check",
 		"lint:fix": "pnpm exec biome check --write --unsafe",
 		"prepare": "husky"

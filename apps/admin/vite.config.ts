@@ -13,7 +13,12 @@ const config = defineConfig({
 		},
 	},
 	plugins: [
-		devtools(),
+		// devtools(),
+		devtools({
+			eventBusConfig:{
+				port: 42070
+			}
+		}),
 		// this is the plugin that enables path aliases
 		viteTsConfigPaths({
 			projects: ["./tsconfig.json"],

@@ -34,6 +34,7 @@ function App() {
 
 	return (
 		<div>
+			<div className="mb-6">Platform</div>
 			<div>
 				{data.users.map((user) => {
 					return (
